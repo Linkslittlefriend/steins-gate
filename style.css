@@ -14,7 +14,7 @@ button {
 }
 
 /* global padding */
-.header,.content,.title,.container {
+.header,.content,.title,.container,.CtA {
     padding-left: 20%;
     padding-right: 20%;
 }
@@ -111,6 +111,8 @@ button {
     display: flex;
     justify-content: center;
     gap: 32px;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 
 .frame {
@@ -122,10 +124,81 @@ button {
 }
 
 .frame img {
-    border: 2px solid;
+    border: 4px solid;
     border-radius: 8px;
     border-color: #3882F6;
     width: 150px;
     height: auto;
 }
 
+.subtext {
+    color:#1F2937;
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* quote section */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 80px 30%;
+}
+
+.words {
+    display: flex;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.reference {
+    display: flex;
+    color:#1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: flex-end;
+}
+
+/* Call to action */
+
+.CtA {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.call-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.text .subject,.body {
+    text-align: left;
+}
+
+.text .subject {
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.text .body {
+    color:#E5E7EB;
+}
+
+.call-container button {
+    border: 2px solid;
+    border-color: #F9FAF8;
+}
+
+.footer {
+    background: #1F2937;
+    color:#E5E7EB;
+    padding: 40px;
+}
